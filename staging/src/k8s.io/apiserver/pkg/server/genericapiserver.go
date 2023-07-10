@@ -27,7 +27,6 @@ import (
 	"time"
 
 	systemd "github.com/coreos/go-systemd/v22/daemon"
-
 	"golang.org/x/time/rate"
 	apidiscoveryv2beta1 "k8s.io/api/apidiscovery/v2beta1"
 	"k8s.io/apimachinery/pkg/api/meta"

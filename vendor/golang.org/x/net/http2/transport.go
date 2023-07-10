@@ -1303,7 +1303,7 @@ func (cc *ClientConn) RoundTrip(req *http.Request) (*http.Response, error) {
 				return handleResponseHeaders()
 			default:
 				waitDone()
-				return nil, cs.abortErr
+				return nil, cancelRequest(cs, cs.abortErr)
 			}
 		case <-ctx.Done():
 			err := ctx.Err()

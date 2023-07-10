@@ -17654,7 +17654,7 @@
     }
   },
   "paths": {
-    "/.well-known/openid-configuration/": {
+    "/.well-known/openid-configuration": {
       "get": {
         "description": "get service account issuer OpenID configuration, also known as the 'OIDC discovery doc'",
         "operationId": "getServiceAccountIssuerOpenIDConfiguration",
@@ -17680,7 +17680,7 @@
         ]
       }
     },
-    "/api/": {
+    "/api": {
       "get": {
         "consumes": [
           "application/json",
@@ -17713,7 +17713,7 @@
         ]
       }
     },
-    "/api/v1/": {
+    "/api/v1": {
       "get": {
         "consumes": [
           "application/json",
@@ -33423,7 +33423,7 @@
         }
       ]
     },
-    "/apis/": {
+    "/apis": {
       "get": {
         "consumes": [
           "application/json",
@@ -33456,7 +33456,7 @@
         ]
       }
     },
-    "/apis/admissionregistration.k8s.io/": {
+    "/apis/admissionregistration.k8s.io": {
       "get": {
         "consumes": [
           "application/json",
@@ -33489,7 +33489,7 @@
         ]
       }
     },
-    "/apis/admissionregistration.k8s.io/v1/": {
+    "/apis/admissionregistration.k8s.io/v1": {
       "get": {
         "consumes": [
           "application/json",
@@ -34792,7 +34792,7 @@
         }
       ]
     },
-    "/apis/admissionregistration.k8s.io/v1alpha1/": {
+    "/apis/admissionregistration.k8s.io/v1alpha1": {
       "get": {
         "consumes": [
           "application/json",
@@ -36282,7 +36282,7 @@
         }
       ]
     },
-    "/apis/admissionregistration.k8s.io/v1beta1/": {
+    "/apis/admissionregistration.k8s.io/v1beta1": {
       "get": {
         "consumes": [
           "application/json",
@@ -37772,7 +37772,7 @@
         }
       ]
     },
-    "/apis/apiextensions.k8s.io/": {
+    "/apis/apiextensions.k8s.io": {
       "get": {
         "consumes": [
           "application/json",
@@ -37805,7 +37805,7 @@
         ]
       }
     },
-    "/apis/apiextensions.k8s.io/v1/": {
+    "/apis/apiextensions.k8s.io/v1": {
       "get": {
         "consumes": [
           "application/json",
@@ -38660,7 +38660,7 @@
         }
       ]
     },
-    "/apis/apiregistration.k8s.io/": {
+    "/apis/apiregistration.k8s.io": {
       "get": {
         "consumes": [
           "application/json",
@@ -38693,7 +38693,7 @@
         ]
       }
     },
-    "/apis/apiregistration.k8s.io/v1/": {
+    "/apis/apiregistration.k8s.io/v1": {
       "get": {
         "consumes": [
           "application/json",
@@ -39548,7 +39548,7 @@
         }
       ]
     },
-    "/apis/apps/": {
+    "/apis/apps": {
       "get": {
         "consumes": [
           "application/json",
@@ -39581,7 +39581,7 @@
         ]
       }
     },
-    "/apis/apps/v1/": {
+    "/apis/apps/v1": {
       "get": {
         "consumes": [
           "application/json",
@@ -44919,7 +44919,7 @@
         }
       ]
     },
-    "/apis/authentication.k8s.io/": {
+    "/apis/authentication.k8s.io": {
       "get": {
         "consumes": [
           "application/json",
@@ -44952,7 +44952,7 @@
         ]
       }
     },
-    "/apis/authentication.k8s.io/v1/": {
+    "/apis/authentication.k8s.io/v1": {
       "get": {
         "consumes": [
           "application/json",
@@ -45147,7 +45147,7 @@
         }
       }
     },
-    "/apis/authentication.k8s.io/v1alpha1/": {
+    "/apis/authentication.k8s.io/v1alpha1": {
       "get": {
         "consumes": [
           "application/json",
@@ -45261,7 +45261,7 @@
         }
       }
     },
-    "/apis/authentication.k8s.io/v1beta1/": {
+    "/apis/authentication.k8s.io/v1beta1": {
       "get": {
         "consumes": [
           "application/json",
@@ -45375,7 +45375,7 @@
         }
       }
     },
-    "/apis/authorization.k8s.io/": {
+    "/apis/authorization.k8s.io": {
       "get": {
         "consumes": [
           "application/json",
@@ -45408,7 +45408,7 @@
         ]
       }
     },
-    "/apis/authorization.k8s.io/v1/": {
+    "/apis/authorization.k8s.io/v1": {
       "get": {
         "consumes": [
           "application/json",
@@ -45768,7 +45768,7 @@
         }
       }
     },
-    "/apis/autoscaling/": {
+    "/apis/autoscaling": {
       "get": {
         "consumes": [
           "application/json",
@@ -45801,7 +45801,7 @@
         ]
       }
     },
-    "/apis/autoscaling/v1/": {
+    "/apis/autoscaling/v1": {
       "get": {
         "consumes": [
           "application/json",
@@ -46819,7 +46819,7 @@
         }
       ]
     },
-    "/apis/autoscaling/v2/": {
+    "/apis/autoscaling/v2": {
       "get": {
         "consumes": [
           "application/json",
@@ -47837,7 +47837,7 @@
         }
       ]
     },
-    "/apis/batch/": {
+    "/apis/batch": {
       "get": {
         "consumes": [
           "application/json",
@@ -47870,7 +47870,7 @@
         ]
       }
     },
-    "/apis/batch/v1/": {
+    "/apis/batch/v1": {
       "get": {
         "consumes": [
           "application/json",
@@ -49873,7 +49873,7 @@
         }
       ]
     },
-    "/apis/certificates.k8s.io/": {
+    "/apis/certificates.k8s.io": {
       "get": {
         "consumes": [
           "application/json",
@@ -49906,7 +49906,7 @@
         ]
       }
     },
-    "/apis/certificates.k8s.io/v1/": {
+    "/apis/certificates.k8s.io/v1": {
       "get": {
         "consumes": [
           "application/json",
@@ -50948,7 +50948,7 @@
         }
       ]
     },
-    "/apis/certificates.k8s.io/v1alpha1/": {
+    "/apis/certificates.k8s.io/v1alpha1": {
       "get": {
         "consumes": [
           "application/json",
@@ -51616,7 +51616,7 @@
         }
       ]
     },
-    "/apis/coordination.k8s.io/": {
+    "/apis/coordination.k8s.io": {
       "get": {
         "consumes": [
           "application/json",
@@ -51649,7 +51649,7 @@
         ]
       }
     },
-    "/apis/coordination.k8s.io/v1/": {
+    "/apis/coordination.k8s.io/v1": {
       "get": {
         "consumes": [
           "application/json",
@@ -52477,7 +52477,7 @@
         }
       ]
     },
-    "/apis/discovery.k8s.io/": {
+    "/apis/discovery.k8s.io": {
       "get": {
         "consumes": [
           "application/json",
@@ -52510,7 +52510,7 @@
         ]
       }
     },
-    "/apis/discovery.k8s.io/v1/": {
+    "/apis/discovery.k8s.io/v1": {
       "get": {
         "consumes": [
           "application/json",
@@ -53338,7 +53338,7 @@
         }
       ]
     },
-    "/apis/events.k8s.io/": {
+    "/apis/events.k8s.io": {
       "get": {
         "consumes": [
           "application/json",
@@ -53371,7 +53371,7 @@
         ]
       }
     },
-    "/apis/events.k8s.io/v1/": {
+    "/apis/events.k8s.io/v1": {
       "get": {
         "consumes": [
           "application/json",
@@ -54199,7 +54199,7 @@
         }
       ]
     },
-    "/apis/flowcontrol.apiserver.k8s.io/": {
+    "/apis/flowcontrol.apiserver.k8s.io": {
       "get": {
         "consumes": [
           "application/json",
@@ -54232,7 +54232,7 @@
         ]
       }
     },
-    "/apis/flowcontrol.apiserver.k8s.io/v1beta2/": {
+    "/apis/flowcontrol.apiserver.k8s.io/v1beta2": {
       "get": {
         "consumes": [
           "application/json",
@@ -55909,7 +55909,7 @@
         }
       ]
     },
-    "/apis/flowcontrol.apiserver.k8s.io/v1beta3/": {
+    "/apis/flowcontrol.apiserver.k8s.io/v1beta3": {
       "get": {
         "consumes": [
           "application/json",
@@ -57586,7 +57586,7 @@
         }
       ]
     },
-    "/apis/internal.apiserver.k8s.io/": {
+    "/apis/internal.apiserver.k8s.io": {
       "get": {
         "consumes": [
           "application/json",
@@ -57619,7 +57619,7 @@
         ]
       }
     },
-    "/apis/internal.apiserver.k8s.io/v1alpha1/": {
+    "/apis/internal.apiserver.k8s.io/v1alpha1": {
       "get": {
         "consumes": [
           "application/json",
@@ -58474,7 +58474,7 @@
         }
       ]
     },
-    "/apis/networking.k8s.io/": {
+    "/apis/networking.k8s.io": {
       "get": {
         "consumes": [
           "application/json",
@@ -58507,7 +58507,7 @@
         ]
       }
     },
-    "/apis/networking.k8s.io/v1/": {
+    "/apis/networking.k8s.io/v1": {
       "get": {
         "consumes": [
           "application/json",
@@ -60955,7 +60955,7 @@
         }
       ]
     },
-    "/apis/networking.k8s.io/v1alpha1/": {
+    "/apis/networking.k8s.io/v1alpha1": {
       "get": {
         "consumes": [
           "application/json",
@@ -62258,7 +62258,7 @@
         }
       ]
     },
-    "/apis/node.k8s.io/": {
+    "/apis/node.k8s.io": {
       "get": {
         "consumes": [
           "application/json",
@@ -62291,7 +62291,7 @@
         ]
       }
     },
-    "/apis/node.k8s.io/v1/": {
+    "/apis/node.k8s.io/v1": {
       "get": {
         "consumes": [
           "application/json",
@@ -62959,7 +62959,7 @@
         }
       ]
     },
-    "/apis/policy/": {
+    "/apis/policy": {
       "get": {
         "consumes": [
           "application/json",
@@ -62992,7 +62992,7 @@
         ]
       }
     },
-    "/apis/policy/v1/": {
+    "/apis/policy/v1": {
       "get": {
         "consumes": [
           "application/json",
@@ -64010,7 +64010,7 @@
         }
       ]
     },
-    "/apis/rbac.authorization.k8s.io/": {
+    "/apis/rbac.authorization.k8s.io": {
       "get": {
         "consumes": [
           "application/json",
@@ -64043,7 +64043,7 @@
         ]
       }
     },
-    "/apis/rbac.authorization.k8s.io/v1/": {
+    "/apis/rbac.authorization.k8s.io/v1": {
       "get": {
         "consumes": [
           "application/json",
@@ -66936,7 +66936,7 @@
         }
       ]
     },
-    "/apis/resource.k8s.io/": {
+    "/apis/resource.k8s.io": {
       "get": {
         "consumes": [
           "application/json",
@@ -66969,7 +66969,7 @@
         ]
       }
     },
-    "/apis/resource.k8s.io/v1alpha2/": {
+    "/apis/resource.k8s.io/v1alpha2": {
       "get": {
         "consumes": [
           "application/json",
@@ -70402,7 +70402,7 @@
         }
       ]
     },
-    "/apis/scheduling.k8s.io/": {
+    "/apis/scheduling.k8s.io": {
       "get": {
         "consumes": [
           "application/json",
@@ -70435,7 +70435,7 @@
         ]
       }
     },
-    "/apis/scheduling.k8s.io/v1/": {
+    "/apis/scheduling.k8s.io/v1": {
       "get": {
         "consumes": [
           "application/json",
@@ -71103,7 +71103,7 @@
         }
       ]
     },
-    "/apis/storage.k8s.io/": {
+    "/apis/storage.k8s.io": {
       "get": {
         "consumes": [
           "application/json",
@@ -71136,7 +71136,7 @@
         ]
       }
     },
-    "/apis/storage.k8s.io/v1/": {
+    "/apis/storage.k8s.io/v1": {
       "get": {
         "consumes": [
           "application/json",
@@ -74691,7 +74691,7 @@
         }
       ]
     },
-    "/logs/": {
+    "/logs": {
       "get": {
         "operationId": "logFileListHandler",
         "responses": {
@@ -74728,7 +74728,7 @@
         }
       ]
     },
-    "/openid/v1/jwks/": {
+    "/openid/v1/jwks": {
       "get": {
         "description": "get service account issuer OpenID JSON Web Key Set (contains public token verification keys)",
         "operationId": "getServiceAccountIssuerOpenIDKeyset",
@@ -74754,7 +74754,7 @@
         ]
       }
     },
-    "/version/": {
+    "/version": {
       "get": {
         "consumes": [
           "application/json"

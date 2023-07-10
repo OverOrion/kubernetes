@@ -120,7 +120,7 @@
   },
   "openapi": "3.0.0",
   "paths": {
-    "/apis/apiregistration.k8s.io/": {
+    "/apis/apiregistration.k8s.io": {
       "get": {
         "description": "get information of a group",
         "operationId": "getApiregistrationAPIGroup",

@@ -35,6 +35,10 @@ import (
 	"k8s.io/kubernetes/pkg/volume"
 )
 
+func init() {
+	restful.MergePathStrategy = restful.TrimSlashStrategy
+}
+
 // Provider hosts methods required by stats handlers.
 type Provider interface {
 	// The following stats are provided by either CRI or cAdvisor.

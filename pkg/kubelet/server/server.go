@@ -96,7 +96,7 @@ const (
 	cadvisorMetricsPath = "/metrics/cadvisor"
 	resourceMetricsPath = "/metrics/resource"
 	proberMetricsPath   = "/metrics/probes"
-	statsPath           = "/stats/"
+	statsPath           = "/stats"
 	logsPath            = "/logs/"
 	pprofBasePath       = "/debug/pprof/"
 	debugFlagPath       = "/debug/flags/v"
